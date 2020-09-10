@@ -17,6 +17,8 @@ int main() {
     //going beyond data type capability causes remainder of division by max value +1
     unsigned int ui = UINT_MAX;
     ui +=5;
-    printf("New size of ui is %d", ui);
+    printf("New size of ui is %d\n", ui);
+    enum seq  {first, second, third, fourth, nineth=8, tenth};
+    printf("first is %d, tenth is %d\n", first, tenth);
     return 0;
 }
